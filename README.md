@@ -4,7 +4,7 @@ Crypto Project
 
 # About Project
 
-This website is built for buy token and check the Crypto's price, and able to search them. Moreover, this website made with HTML, CSS, React JS, JavaScript and Bootstrap.
+This sample is built for buy token and check the Crypto's price, and able to search them. Moreover, this website made with HTML, CSS, React JS, JavaScript and Bootstrap.
 
 ## How to run
 
@@ -21,7 +21,7 @@ Fourth:
 Open Terminal and run `npm install` to setup required modules into the project
 
 Fifth: 
-Then run `npm start`, then you can see the website
+Then run `npm start`, then you can see the sample
 
 ![screenshot_1](https://user-images.githubusercontent.com/30923608/200420231-68373ca6-7eb6-4071-9239-e4ddfe75a487.png)
 
