@@ -4,7 +4,7 @@ Crypto Project
 
 # About Project
 
-This sample is built for buy token and check the Crypto's price, and able to search them. Moreover, this website made with HTML, CSS, React JS, JavaScript and Bootstrap.
+This sample is built for buy token and check the Crypto's price, and able to search them. Moreover, this sample made with HTML, CSS, React JS, JavaScript and Bootstrap.
 
 ## How to run
 
