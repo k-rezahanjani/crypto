@@ -1,0 +1,421 @@
+body {
+  background: linear-gradient(90deg, #151233, #1e1642);
+}
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  height: 730px;
+  width: 89%;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  color: white;
+  background-image: url("../../img/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 90px;
+}
+.App-link {
+  color: #61dafb;
+}
+.nav-link {
+  margin: 0 19px;
+}
+.decentralize {
+  width: 50%;
+  height: 200px;
+  padding-top: 100px;
+  margin-left: 72px;
+  margin-top: 4px;
+  display: flex;
+  flex-direction: column;
+}
+.navbar-dark .navbar-brand {
+  padding-left: 20px;
+}
+.decentralize h4 {
+  color: yellow;
+  font-size: 21px;
+  font-weight: 700;
+  text-align: left;
+  padding-left: 10px;
+}
+.decentralize p, h1 {
+  text-align: justify;
+  padding: 10px;
+}
+.decentralize p {
+  line-height: 25px;
+}
+.decentralize h1 {
+  font-size: 31px;
+  font-weight: 500;
+  text-align: left;
+}
+.decen {
+  padding-top: 53px;
+}
+.decen .decen-left {
+  width: 500px;
+  height: 327px;
+}
+.decen:nth-child(2) {
+  padding: 0;
+  margin-right: 230px;
+  margin-top: -148px;
+  float: right;
+}
+.decentralize .decen .btn {
+  margin-right: 10px;
+  position: relative;
+  left: -130px;
+}
+.btn {
+  text-align: left;
+}
+.platform {
+  width: 800px;
+  height: 485px;
+  position: relative;
+  right: -159px;
+  top: -227px;
+  background-image: url("../../img/platform.png");
+  background-repeat: no-repeat;
+  background-size: 95%;
+  margin-left: 255px;
+}
+/*---------- Trading Platform ----------*/
+
+.trading-platform {
+  width: 100%;
+  padding-top: 6px;
+  padding-bottom: 77px;
+}
+.trading-img {
+  width: 400px;
+  height: 327px;
+  background-image: url("../../img/middle.png");
+  background-repeat: no-repeat;
+  margin-left: 114px;
+}
+.trading {
+  display: flex;
+  flex-direction: column;
+}
+.trading:nth-child(2) {
+  width: 40%;
+  position: relative;
+  top: -1px;
+  color: white;
+  text-align: left;
+  margin: 0 auto;
+}
+.trading:nth-child(1) {
+  width: 40%;
+}
+.trading:nth-child(2) h1 {
+  padding-left: 0;
+  font-size: 29px;
+  font-weight: 700;
+}
+.trading:nth-child(2) p {
+  line-height: 24px;
+}
+.trading-platform .trading .btn {
+  margin-top: 10px;
+}
+/*------------ Rating ---------------*/
+.rating {
+  padding-top: 100px;
+  text-align: center;
+}
+.rating h4, .about-us h4 {
+  color: yellow;
+  font-size: 18px;
+  font-weight: 600;
+}
+.rating h1, .about-us h1 {
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+}
+.rating p, .about-us p {
+  color: white;
+  padding-bottom: 20px;
+}
+/*--------- Term ---------*/
+.term {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  border: 1px solid black;
+  display: inline-block;
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  overflow: hidden;
+  box-shadow: 1px 1px 1px 1px;
+  background-color: #352877;
+  border-radius: 10px;
+  border-bottom: 6px solid purple;
+}
+.term .routing .routing-img {
+  width: 100%;
+  border-radius: 10px;
+}
+.routing-description {
+  padding-top: 10px;
+  color: white;
+}
+/*------- About Us ------*/
+.about-us {
+  padding-top: 100px;
+  text-align: center;
+}
+.members-term {
+  width: 200px;
+  height: 250px;
+  border-radius: 5px;
+  border: 1px solid black;
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
+  overflow: hidden;
+  box-shadow: 1px 1px 1px 1px;
+  background-color: transparent;
+  border-radius: 10px;
+  border-bottom: 6px solid purple;
+}
+.members-term .members-img {
+  width: 80%;
+  border-radius: 50%;
+}
+.members-name, .members-position {
+  padding-top: 10px;
+  color: white;
+  font-size: 15px;
+}
+/*------- Footer ------*/
+
+.footer-container {
+  height: 300px;
+  color: white;
+  padding: 80px 0;
+  background: #192057 !important;
+}
+.footer-copyright {
+  text-align: left;
+}
+.footer-logo {
+  margin-bottom: 15px;
+}
+.footer-logo a {
+  color: #fff;
+  font-size: 20px;
+}
+.footer-copyright>p {
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 13px;
+}
+.footer-content .footer-info p {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+.footer-content .footer-info a {
+  text-decoration: none;
+  color: inherit;
+}
+.footer-items-adjust {
+  text-align: left;
+  display: flex;
+}
+/*---- Media ----*/
+@media screen and (max-width: 1599px){
+  .decen-left h1 {
+    text-align: left;
+    font-size: 29px;
+  }
+
+}
+@media screen and (max-width: 1399px) {
+  .platform {
+    width: 646px;
+    right: -159px;
+    top: -227px;
+  }
+  .decentralize .decentra-title h1 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1299px) {
+  .platform {
+    width: 591px;
+    right: -159px;
+    top: -227px;
+  }
+  .decen-left h1 {
+    text-align: left;
+    font-size: 25px;
+  }
+  .trading {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1199px){
+
+  .decentralize{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .decentralize p {
+    line-height: 25px;
+    font-size: 15px;
+    text-align: left;
+  }
+  .platform {
+    width: 504px;
+    right: -275px;
+    margin: 0;
+    top: -203px;
+  }
+  .decen-left h1 {
+    text-align: left;
+    font-size: 23px;
+  }
+  .decentralize h4 {
+    font-size: 19px;
+  }
+  .trading:nth-child(2) {
+    text-align: justify;
+  }
+  .trading-img {
+    margin-left: 0px;
+  }
+  .trading {
+    display: inline-table;
+  }
+  .trading:nth-child(2) {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 992px){
+  .platform {
+    display: none;
+  }
+  .trading {
+    display: inline-table;
+  }
+  .trading:nth-child(2) {
+    width: 50%;
+  }
+  .trading-img {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .platform {
+    display: none;
+  }
+  .trading:nth-child(2) {
+    width: 50%;
+  }
+  .trading:nth-child(1) {
+    width: 50%;
+  }
+  .trading-img {
+    background-size: 382px;
+    width: 376px;
+    margin-left: -40px;
+  }
+  .trading {
+    display: inline-table;
+  }
+  .trading:nth-child(2) h1 {
+    font-size: 20px;
+    text-align: left;
+  }
+  .footer-container {
+    height: 400px;
+  }
+  .footer-container .row .footer-items-adjust {
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 481px) {
+  .platform {
+    display: none;
+  }
+  .trading:nth-child(2) p {
+    line-height: 24px;
+    font-size: 14px;
+  }
+  .trading:nth-child(2) h1 {
+    text-align: left;
+    font-size: 21px;
+  }
+  .trading-img {
+    width: 340px;
+    background-size: 340px;
+    margin: 0;
+  }
+  .trading {
+    display: inline-table;
+  }
+  .trading-pa {
+    height: 100px;
+    overflow: hidden;
+  }
+  .footer-container {
+    height: 395px;
+  }
+  .footer-container .row .col-12 {
+    width: 50%;
+  }
+  .footer-items-adjust {
+    padding-bottom: 20px;
+  }
+  .trading-platform .row .trading {
+    width: 100%;
+  }
+  .trading-img {
+    width: 340px;
+    background-size: 340px;
+    margin: 0 auto;
+  }
+  .members-term {
+    width: 150px;
+    margin: 5px;
+  }
+  .rating p, .about-us p {
+    color: white;
+    padding-bottom: 0px;
+    font-size: 15px;
+  }
+  .rating h1, .about-us h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .decentralize p {
+    line-height: 25px;
+    text-align: left;
+    font-size: 14px;
+  }
+  .decentralize h4 {
+    color: yellow;
+    font-size: 19px;
+  }
+  .decen-left h1 {
+    text-align: left;
+    font-size: 25px;
+  }
+ }
